@@ -1,0 +1,10 @@
+-- Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
+Select MAX(credit) From Subject;
+-- Hiển thị các thông tin môn học có điểm thi lớn nhất.
+Select s.SubId, s.SubName,s.Credit,s.Status,Max(m.Mark) From Mark m
+Join Subject s ON s.SubId = m.SubId;
+-- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+Select s.StudentId,s.StudentName,s.Address,s.Phone,s.Status,s.ClassId, AVG(m.mark) as AvgMark from Student s
+Join Mark m on s.StudentId = m.StudentId
+Group by s.StudentId
+Order by AvgMark, s.StudentName

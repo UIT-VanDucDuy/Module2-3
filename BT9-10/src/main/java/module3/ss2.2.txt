@@ -1,0 +1,25 @@
+create table Customer(
+cID int primary key,
+cName varchar(50),
+cAge varchar(50)
+);
+create table Order_(
+oID int primary key,
+cID int,
+oDate date,
+oTotalPrice float,
+foreign key(cID) references Customer(cID)
+);
+create table Product(
+pID int primary key,
+pName varchar(50),
+pPrice float
+);
+create table OrderDetail(
+oID int,
+pID int,
+odQTY varchar(50),
+primary key(oID, PID),
+foreign key(oID) references Order_(oID),
+foreign key(pID) references Product(pID)
+);

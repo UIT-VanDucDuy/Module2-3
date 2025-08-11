@@ -1,0 +1,102 @@
+create database if not exists  demo_db;
+use demo_db;
+create table Products (
+    id int auto_increment primary key,
+    productCode varchar(50),
+    productName varchar(100) ,
+    productPrice double ,
+    productAmount int ,
+    productDescription varchar(50),
+    productStatus varchar(50)
+);
+insert into Products (productCode, productName, productPrice, productAmount, productDescription, productStatus)
+values
+('P001', 'Laptop Dell XPS 13', 28999.99, 10, 'Laptop cao cấp cho doanh nhân', 1),
+('P002', 'iPhone 15 Pro', 32999.00, 5, 'Điện thoại cao cấp của Apple', 1),
+('P003', 'Tai nghe Sony WH-1000XM5', 6999.50, 15, 'Tai nghe chống ồn tốt nhất 2024', 1),
+('P004', 'Bàn phím cơ Keychron K6', 1999.99, 0, 'Bàn phím cơ không dây mini', 0),
+('P005', 'Màn hình LG 27 inch 4K', 5999.00, 7, 'Màn hình chuyên đồ họa', 1),
+('P006', 'Laptop Dell Inspiron', 15000000.00, 10, 'Laptop Dell cấu hình mạnh', 1),
+('P007', 'Điện thoại iPhone 13', 21000000.00, 5, 'iPhone chính hãng Apple', 1),
+('P008', 'Chuột không dây Logitech', 450000.00, 30, 'Chuột không dây tiện lợi', 1),
+('P009', 'Bàn phím cơ DareU', 850000.00, 15, 'Bàn phím cơ RGB đẹp mắt', 1),
+('P010', 'Màn hình Samsung 24 inch', 3200000.00, 0, 'Màn hình Full HD', 0);
+
+select * from products;
+-- tạo index
+create index i_product_code ON Products(productCode);
+
+create index idx_name_price ON Products(productName, productPrice);
+
+explain select * from Products where productName = 'Laptop Dell Inspiron' and productPrice = 15000000.00;
+
+-- tạo view
+create view view_product as
+select productCode, productName, productPrice, productStatus
+from Products;
+
+create or replace view view_product as
+select productCode, productName, productPrice, productStatus, productAmount
+from Products;
+
+drop view if exists  view_product_info;
+
+
+-- Tạo store procedure lấy tất cả thông tin của tất cả các sản phẩm trong bảng product
+
+delimiter //
+create procedure get_all_products()
+begin
+    select * from Products;
+end //
+delimiter ;
+
+-- Tạo store procedure thêm một sản phẩm mới
+delimiter //
+create procedure add_product(
+    in p_code varchar(50),
+    in p_name varchar(100),
+    in p_price double,
+    in p_amount int,
+    in p_description varchar(50),
+    in p_status varchar(50)
+)
+begin
+    insert into Products(productCode, productName, productPrice, productAmount, productDescription, productStatus)
+    values(p_code, p_name, p_price, p_amount, p_description, p_status);
+end //
+delimiter ;
+
+-- Tạo store procedure sửa thông tin sản phẩm theo id
+delimiter //
+create procedure update_product(
+	in p_id int,
+	in p_code varchar(50),
+    in p_name varchar(100) ,
+    in p_price double ,
+    in p_amount int ,
+    in p_description varchar(50),
+    in p_status varchar(50)
+)
+begin
+    update Products
+    set productCode = p_code,
+        productName = p_name,
+        productPrice = p_price,
+        productAmount = p_amount,
+        productDescription = p_description,
+        productStatus = p_status
+    where id = p_id;
+
+end //
+delimiter ;
+-- Tạo store procedure xoá sản phẩm theo id
+
+delimiter //
+create procedure update_product(
+	in p_id int
+)
+begin
+    delete from Products where id = p_id;
+end //
+delimiter ;

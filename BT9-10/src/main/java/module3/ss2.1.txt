@@ -1,0 +1,46 @@
+use test;
+create table NhaCC(
+ Ma int primary key,
+ Ten varchar(50),
+ DiaChi varchar(50),
+ SDT varchar(50)
+);
+create table DonDH(
+ SoDH int primary key,
+ ngayDH date,
+ Ma_NhaCC int,
+ foreign key(Ma_NhaCC) references NhaCC(Ma)
+);
+create table VatTU(
+ Ma int primary key,
+ Ten varchar(50)
+);
+create table PhieuXuat(
+ SoPX int primary key,
+ NgayXuat date
+);
+create table PhieuNhap(
+ SoPN int primary key,
+ NgayNhap date
+);
+create table PhieuXuat_VatTU(
+SoPX int,
+MaVTU int,
+primary key (SoPX,MaVTU),
+foreign key(SoPX) references PhieuXuat(SoPX),
+foreign key(MaVTU) references VatTU(Ma)
+);
+create table PhieuNhap_VatTU(
+SoPN int,
+MaVTU int,
+primary key (SoPN,MaVTU),
+foreign key(SoPN) references PhieuNhap(SoPN),
+foreign key(MaVTU) references VatTU(Ma)
+);
+create table DonDH_VatTU(
+SoDH int,
+MaVTU int,
+primary key (SoDH,MaVTU),
+foreign key(SoDH) references DonDH(SoDH),
+foreign key(MaVTU) references VatTU(Ma)
+);

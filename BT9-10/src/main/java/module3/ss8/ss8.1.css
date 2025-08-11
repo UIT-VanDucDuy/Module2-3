@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+}
+
+.menu a.active,
+.menu a:hover {
+    background-color: black;
+}
+.menu{
+    display: flex;
+}
+.login {
+    color: #ccc;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    min-height: 88vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 15%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Main content */
+.content {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Ads */
+.ads {
+    width: 15%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.ad-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
