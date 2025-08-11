@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f33a466-d5fa-4cc6-b0cf-cf7f90590500" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/.idea/Module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/data/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/data/teacher.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/repo/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/repo/ITeacherRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/repo/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/repo/TeacherRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/service/ITeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/util/ReadAndWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/view/StudentView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/mvc/view/TeacherView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss10_ArrayList/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss10_ArrayList/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss11_Stack_Queue/CheckPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss11_Stack_Queue/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss11_Stack_Queue/ReverseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss12/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss12/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss12/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss12/products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss13/IncreasingString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss13/IncreasingString2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss14/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss15_Exception/IllegalTriangleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss15_Exception/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss16/CopyTextFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss16/FileTaget.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss16/TextFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss17/CopyFileBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss17/SourceFile.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss17/TagetFile.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss1_tongquan_java/baitap/ChuyenDoiTienTe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss1_tongquan_java/baitap/ChuyenSoThanhChu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss1_tongquan_java/baitap/HienThiLoiChao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss1_tongquan_java/thuchanh/Bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss2_loop_java/HienThi20SoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss2_loop_java/HienThiCacLoaiHinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss2_loop_java/SNTNhoHon100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/DuongCheoChinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/GopMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/MaxIn2DArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/MinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/SoLanXuatHien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/SumColum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/ThemPhanTuVaoMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss3_ArrayAndMethod_java/XoaPhanTuKhoiMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss4_OOP/Fan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss4_OOP/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss4_OOP/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss5_AccessModifier/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss5_AccessModifier/ProductMannager/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss5_AccessModifier/ProductMannager/ProductManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss5_AccessModifier/ProductMannager/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss5_AccessModifier/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT1/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT2/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT2/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT3/MoveablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss6_Inheritance/BT3/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss7_Interface/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss7_Interface/Colorable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss7_Interface/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss7_Interface/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss7_Interface/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/controller/MotorbikeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/controller/TruckController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/data/Car.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/data/Motobike.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/data/Truck.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/entity/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/entity/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/entity/Motorbike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/entity/Truck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/entity/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/BrandRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/CarRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/MotorbikeRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/MotorbikeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/TruckRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/repository/TruckRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/BrandServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/CarServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/MotorServicebikeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/MotorbikeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/TruckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/service/TruckServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/util/CheckRegex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/util/ReadAndWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/view/AddVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/view/RemoveVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module2/ss8_CleanCode/view/ShowVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/CaseStudy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss2.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss3.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss3.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss4.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss5.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss7/ss7.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss7/ss7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss7/ss7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/Covencinema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/ss8.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/ss8.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/ss8.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/ss8.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss8/ss8.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT9-10/src/main/java/module3/ss9/ss9.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/data/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/data/teacher.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/repo/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/repo/ITeacherRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/repo/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/repo/TeacherRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/service/ITeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/util/ReadAndWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/view/StudentView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/mvc/view/TeacherView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss10_ArrayList/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss10_ArrayList/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss11_Stack_Queue/CheckPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss11_Stack_Queue/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss11_Stack_Queue/ReverseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss12/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss12/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss12/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss12/products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss13/IncreasingString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss13/IncreasingString2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss14/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss15_Exception/IllegalTriangleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss15_Exception/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss16/CopyTextFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss16/FileTaget.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss16/TextFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss17/CopyFileBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss17/SourceFile.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss17/TagetFile.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss1_tongquan_java/baitap/ChuyenDoiTienTe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss1_tongquan_java/baitap/ChuyenSoThanhChu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss1_tongquan_java/baitap/HienThiLoiChao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss1_tongquan_java/thuchanh/Bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss2_loop_java/HienThi20SoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss2_loop_java/HienThiCacLoaiHinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss2_loop_java/SNTNhoHon100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/DuongCheoChinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/GopMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/MaxIn2DArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/MinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/SoLanXuatHien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/SumColum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/ThemPhanTuVaoMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss3_ArrayAndMethod_java/XoaPhanTuKhoiMang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss4_OOP/Fan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss4_OOP/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss4_OOP/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss5_AccessModifier/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss5_AccessModifier/ProductMannager/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss5_AccessModifier/ProductMannager/ProductManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss5_AccessModifier/ProductMannager/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss5_AccessModifier/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT1/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT2/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT2/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT3/MoveablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss6_Inheritance/BT3/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss7_Interface/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss7_Interface/Colorable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss7_Interface/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss7_Interface/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss7_Interface/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/controller/MotorbikeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/controller/TruckController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/data/Car.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/data/Motobike.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/data/Truck.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/entity/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/entity/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/entity/Motorbike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/entity/Truck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/entity/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/BrandRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/CarRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/MotorbikeRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/MotorbikeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/TruckRepoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/repository/TruckRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/BrandServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/CarServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/MotorServicebikeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/MotorbikeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/TruckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/service/TruckServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/util/CheckRegex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/util/ReadAndWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/view/AddVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/view/RemoveVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/ss8_CleanCode/view/ShowVehicleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/CaseStudy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss2.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss3.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss3.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss4.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss5.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss7/ss7.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss7/ss7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss7/ss7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/Covencinema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/ss8.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/ss8.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/ss8.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/ss8.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss8/ss8.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/ss9/ss9.1.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="318Rs9s0rkb70uAw6YrKUba6ATf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/IdeaProjects/Module3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\IdeaProjects\Module3" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\Module3\BT9-10" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="module2" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f33a466-d5fa-4cc6-b0cf-cf7f90590500" name="Changes" comment="" />
+      <created>1754903916570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754903916570</updated>
+      <workItem from="1754903917755" duration="1271000" />
+      <workItem from="1754905239468" duration="766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
