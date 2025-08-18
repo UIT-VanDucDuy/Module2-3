@@ -18,6 +18,7 @@
       <th>Giá</th>
       <th>Mô tả</th>
       <th>Nhà Sản xuất</th>
+      <th>Danh mục sản phẩm</th>
       <th>Chỉnh sửa</th>
       <th>Xoá</th>
     </tr>
@@ -28,6 +29,8 @@
         <td>${product.getPrice()}</td>
         <td>${product.getDescription()}</td>
         <td>${product.getManufacturer()}</td>
+        <td>${product.getCategoryId()}</td>
+
         <td>
           <button class="btn btn-sm btn-primary">Chỉnh sửa</button>
         </td>

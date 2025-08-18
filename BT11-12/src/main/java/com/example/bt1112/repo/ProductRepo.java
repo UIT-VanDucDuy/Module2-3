@@ -25,7 +25,8 @@ public class ProductRepo implements IProductRepo {
                 int price = resultSet.getInt("price");
                 String description = resultSet.getString("description");
                 String manufacturer = resultSet.getString("manufacturer");
-                Product product = new Product(id,name,price,description,manufacturer);
+                int categoryId = resultSet.getInt("categoryId");
+                Product product = new Product(id,name,price,description,manufacturer,categoryId);
                 productList.add(product);
             }
         } catch (SQLException e) {

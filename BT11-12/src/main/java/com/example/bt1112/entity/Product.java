@@ -6,20 +6,23 @@ public class Product {
     private int price;
     private String description;
     private String manufacturer;
+    private int categoryId;
 
-    public Product(int id, String name, int price, String description, String manufacturer) {
+    public Product(int id, String name, int price, String description, String manufacturer, int categoryId) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.description = description;
         this.manufacturer = manufacturer;
+        this.categoryId = categoryId;
     }
 
-    public Product(String name, int price, String description, String manufacturer) {
+    public Product(String name, int price, String description, String manufacturer, int categoryId) {
         this.name = name;
         this.price = price;
         this.description = description;
         this.manufacturer = manufacturer;
+        this.categoryId = categoryId;
     }
 
     public int getId() {
@@ -40,5 +43,9 @@ public class Product {
 
     public String getManufacturer() {
         return manufacturer;
+    }
+
+    public int getCategoryId() {
+        return categoryId;
     }
 }

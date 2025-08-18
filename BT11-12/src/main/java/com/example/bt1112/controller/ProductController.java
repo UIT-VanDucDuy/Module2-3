@@ -81,7 +81,8 @@ public class ProductController extends HttpServlet {
         int price = Integer.parseInt(req.getParameter("price"));
         String description = req.getParameter("description");
         String manufacturer = req.getParameter("manufacturer");
-        Product product = new Product(name, price, description, manufacturer);
+        int categoryId = Integer.parseInt(req.getParameter("categoryId"));
+        Product product = new Product(name, price, description, manufacturer, categoryId);
         boolean isAddSuccess = productService.add(product);
         String mess = "";
         if (isAddSuccess){
