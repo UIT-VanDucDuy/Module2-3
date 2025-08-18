@@ -2,16 +2,13 @@ package com.example.bt1112.repo;
 
 import com.example.bt1112.entity.Product;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductRepo implements IProductRepo {
     private final String SELECT_ALL = "select * from products;";
-    private final String INSERT_INTO = "insert into products(name,price,description, manufacturer) values(?,?,?,?);";
+    private final String INSERT_INTO = "insert into account(name,price,description, manufacturer) values(?,?,?,?);";
     private final String DELETE = "DELETE FROM products WHERE id = ?;";
 
     @Override
@@ -56,9 +53,9 @@ public class ProductRepo implements IProductRepo {
     @Override
     public boolean delete(int id) {
         try( Connection connection = BaseRepository.getConnectDB();) {
-            PreparedStatement preparedStatement = connection.prepareStatement(DELETE);
-            preparedStatement.setInt(1,id);
-            int effectRow = preparedStatement.executeUpdate();
+            CallableStatement callableStatement = connection.prepareCall(DELETE);
+            callableStatement.setInt(1,id);
+            int effectRow = callableStatement.executeUpdate();
             return effectRow==1;
         } catch (SQLException e) {
             System.out.println("lỗi query");
