@@ -4,6 +4,15 @@
 <head>
   <title>Title</title>
   <c:import url="../layout/library.jsp"/>
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"/>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- DataTables JS -->
+  <script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
 </head>
 <body>
 <c:import url="../layout/header.jsp"/>
@@ -11,7 +20,8 @@
   <h1>Danh sách sinh viên</h1>
   <p>${param.mess}</p>
   <a href="/products?action=add">Thêm mới</a>
-  <table class="table table-dark table-striped">
+  <table id="tableProduct" class="table table-dark table-striped">
+    <thead>
     <tr>
       <th>STT</th>
       <th>Tên</th>
@@ -22,6 +32,8 @@
       <th>Chỉnh sửa</th>
       <th>Xoá</th>
     </tr>
+    </thead>
+    <tbody>
     <c:forEach var="productDto" items="${productList}" varStatus="status">
       <tr>
         <td>${status.count}</td>
@@ -43,6 +55,7 @@
         </td>
       </tr>
     </c:forEach>
+    </tbody>
   </table>
 </div>
 
@@ -113,6 +126,13 @@
     document.getElementById("updatePrice").value = price;
     document.getElementById("updateManufacturer").value = manufacturer;
   }
+  $(document).ready(function() {
+    $('#tableProduct').dataTable( {
+      "dom": 'lrtip',
+      "lengthChange": false,
+      "pageLength": 5
+    } );
+  } );
 </script>
 </body>
 </html>
