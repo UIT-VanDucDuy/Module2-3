@@ -22,20 +22,22 @@
       <th>Chỉnh sửa</th>
       <th>Xoá</th>
     </tr>
-    <c:forEach var="product" items="${productList}" varStatus="status">
+    <c:forEach var="productDto" items="${productList}" varStatus="status">
       <tr>
         <td>${status.count}</td>
-        <td><c:out value="${product.getName()}"></c:out></td>
-        <td>${product.getPrice()}</td>
-        <td>${product.getDescription()}</td>
-        <td>${product.getManufacturer()}</td>
-        <td>${product.getCategoryId()}</td>
+        <td><c:out value="${productDto.getName()}"></c:out></td>
+        <td>${productDto.getPrice()}</td>
+        <td>${productDto.getDescription()}</td>
+        <td>${productDto.getManufacturer()}</td>
+        <td>${productDto.getCategory()}</td>
 
         <td>
-          <button class="btn btn-sm btn-primary">Chỉnh sửa</button>
+          <button onclick="getInfoUpdate('${productDto.getId()}','${productDto.getName()}','${productDto.getPrice()}','${productDto.getManufacturer()}')" data-bs-toggle="modal"
+                  data-bs-target="#updateModal" class="btn btn-sm btn-primary">Chỉnh sửa
+          </button>
         </td>
         <td>
-          <button onclick="getInfoDelete('${product.getId()}','${product.getName()}')" data-bs-toggle="modal"
+          <button onclick="getInfoDelete('${productDto.getId()}','${productDto.getName()}')" data-bs-toggle="modal"
                   data-bs-target="#deleteModal" class="btn btn-sm btn-danger">Xoá
           </button>
         </td>
@@ -69,10 +71,47 @@
     </form>
   </div>
 </div>
+
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form action="/products?action=update" method="post">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="updateModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <span>Chỉnh sửa sản phẩm có Id : </span>
+          <span style="color: red" id="UpdateId"></span><br><br>
+          <label> Tên :</label>
+          <input id="updateName" name="updateName"> <br><br>
+          <label> Giá :</label>
+          <input id="updatePrice" name="updatePrice"> <br><br>
+          <label> Nhà sản xuất :</label>
+          <input id="updateManufacturer" name="updateManufacturer">
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+          <button type="submit" class="btn btn-primary">Xoá</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
 <script>
   function getInfoDelete(id, name) {
     document.getElementById("deleteName").innerText = name;
     document.getElementById("deleteId").value = id;
+  }
+  function getInfoUpdate(id, name,price,manufacturer) {
+    document.getElementById("UpdateId").innerText = id;
+    document.getElementById("updateName").value = name;
+    document.getElementById("updatePrice").value = price;
+    document.getElementById("updateManufacturer").value = manufacturer;
   }
 </script>
 </body>

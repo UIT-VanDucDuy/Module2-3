@@ -1,5 +1,6 @@
 package com.example.bt1112.service;
 
+import com.example.bt1112.dto.ProductDto;
 import com.example.bt1112.entity.Product;
 import com.example.bt1112.repo.IProductRepo;
 import com.example.bt1112.repo.ProductRepo;
@@ -9,7 +10,7 @@ import java.util.List;
 public class ProductService implements IProductService {
     private IProductRepo productRepo = new ProductRepo();
     @Override
-    public List<Product> findAll() {
+    public List<ProductDto> findAll() {
         return productRepo.findAll();
     }
 
@@ -21,5 +22,10 @@ public class ProductService implements IProductService {
     @Override
     public boolean delete(int id) {
         return productRepo.delete(id);
+    }
+
+    @Override
+    public List<ProductDto> findByCategory(String category) {
+        return productRepo.findByCategory(category);
     }
 }

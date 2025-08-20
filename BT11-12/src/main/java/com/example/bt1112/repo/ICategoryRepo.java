@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface ICategoryRepo {
     List<Category> getAll();
+    boolean add(Category category);
 }

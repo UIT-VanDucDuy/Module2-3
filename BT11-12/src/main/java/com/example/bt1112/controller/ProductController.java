@@ -1,5 +1,6 @@
 package com.example.bt1112.controller;
 
+import com.example.bt1112.dto.ProductDto;
 import com.example.bt1112.entity.Product;
 import com.example.bt1112.service.IProductService;
 import com.example.bt1112.service.ProductService;
@@ -46,7 +47,7 @@ public class ProductController extends HttpServlet {
         }
     }
     private void showList(HttpServletRequest req, HttpServletResponse resp) {
-        List<Product> productList = productService.findAll();
+        List<ProductDto> productList = productService.findAll();
         req.setAttribute("productList", productList);
         try {
             req.getRequestDispatcher("/view/list.jsp").forward(req, resp);
@@ -70,6 +71,10 @@ public class ProductController extends HttpServlet {
             case "delete":
                 delete(req,resp);
                 break;
+            case "search":
+                search(req,resp);
+                break;
+
             default:
         }
 
@@ -81,7 +86,7 @@ public class ProductController extends HttpServlet {
         int price = Integer.parseInt(req.getParameter("price"));
         String description = req.getParameter("description");
         String manufacturer = req.getParameter("manufacturer");
-        int categoryId = Integer.parseInt(req.getParameter("categoryId"));
+        int categoryId = Integer.parseInt(req.getParameter("category"));
         Product product = new Product(name, price, description, manufacturer, categoryId);
         boolean isAddSuccess = productService.add(product);
         String mess = "";
@@ -107,6 +112,19 @@ public class ProductController extends HttpServlet {
         }
         try {
             resp.sendRedirect("/products?mess=" + mess);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void search(HttpServletRequest req, HttpServletResponse resp) {
+        String name = req.getParameter("categoryName");
+        List<ProductDto> productList = productService.findByCategory(name);
+        req.setAttribute("productList", productList);
+        try {
+            req.getRequestDispatcher("/view/list.jsp").forward(req, resp);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
